@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Web</title>
+
+    <link rel="stylesheet" href="styles.css">
+    
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+    
+</head>
+<body>
+    <header>
+        <!--encabezado-->
+        <h1 class="logo">
+            <a href="https://egg.live/" class="fuente-acento">Mi web</a>
+        </h1>
+    
+    <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <ul class="menu">
+            <li><a href="" id="idMenu1">Inicio</a></li>
+            <li><a href="https://www.google.com" id="idMenu1" >Ir a Google</a></li>
+            <li><a href="" id="idMenu1">Acerca de mi</a></li>
+            <li><a href="https://wa.me/3883880552" id="idMenu1">Contacto</a></li>    
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <!--contenido principal-->
+        <h2>Sobre mi</h2>
+        
+        <section>
+            <!--informacion-->
+            <p class="fuente-oscura">
+                ¡Bienvenido a mi página "Acerca de"! Aqui aprenderas más sobre mi.               
+            </p>
+            <p class="parrafo2">
+                <br> Estoy aprendiendo desarrollo web para crear sitios web visualmente
+                <br> atrapantes y funcionales.
+                <br> A lo largo de este curso, estaré aprendiendo HTML, CSS y JavaScript.
+                <br> Estos lenguajes me ayudarán a crear una base sólida en el desarrollo web
+                <br> front-end.
+            </p>
+            <div>
+                <!--agrupar una seccion-->
+                <img src="img/imagen1.jpg" width="200"/>
+            </div>
+            <div>
+                <img src="img/paisaje1.jpg" width="600"/>
+            </div>
+        </section>
+    </main>
+    <footer class="form-header">
+
+    <h1>Contacto</h1>
+      <p><em>¡Esperamos tu consulta!</em></p>
+
+      <form action="" method="get" class="formulario" id="form">
+        
+        <div class="form-row">
+            <label for="nombre">Nombre</label>
+            <input id="nombre" name="nombre" type="text" />
+        </div>
+        
+        <div class="form-row">
+            <label for="email">Email</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="pepe@gmail.com"/>
+          </div>
+
+          <div class="form-row">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+          </div>
+
+          <div class="form-row">
+            <button>Enviar</button>
+          </div>
+
+          <p class="alertas" id="alertas"></p>
+
+        </form>
+        <!--pie de pagina de la web-->
+        <div>
+           Creado por:   Galian Victor Gustavo
+        </div>
+
+        
+    </footer>
+    
+</body>
+</html>
