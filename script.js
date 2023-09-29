@@ -4,7 +4,7 @@ console.log(nombre1);
 
 //SELECIONAR ELEMENTOS
 
-let contenidoTitulo = "Mi web";
+let contenidoTitulo = "Mi pagína web";
 
 let titulo = document.querySelector(".logo .fuente-acento");
 titulo.innerHTML = contenidoTitulo;
