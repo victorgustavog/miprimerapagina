@@ -29,6 +29,12 @@ footer {
     padding: 25px;
  }
 
+ .contacto {
+    font-style: italic;
+    background-color: #eeb75a;
+
+ }
+
 .fuente-clara {
     color: #eeeeee;
 }
@@ -62,29 +68,29 @@ nav ul li {
     /*background-color: #333;*/
     color: rgba(34, 33, 31, 0.85);
     /*float: right;*/
-    
-    
-   
+
   }
 
   #idMenu1 {
     color: #fff; 
  }
 
- /*
- section {
+ 
+.section-principal {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
+    
  }
- */
+ 
  
  /*media queries*/
 
 footer a {
     text-decoration: none;
 }   
+
  /*MENU*/
  #check {
     display: none;
@@ -153,6 +159,16 @@ footer a {
   .navbar.active ul.menu {
     opacity: 1;
   }
+
+  .checkbtn {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: block;
+ }
 
 }
 
